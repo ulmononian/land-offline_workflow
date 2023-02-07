@@ -44,11 +44,11 @@ if(ECBUILD_INSTALL_FORTRAN_MODULES)
   install(DIRECTORY ${CMAKE_Fortran_MODULE_DIRECTORY}/${CMAKE_CFG_INTDIR} DESTINATION ${INSTALL_INCLUDE_DIR} )
 endif()
 execute_process(
-  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/fv3-jedi/Data/make_links.sh ${fv3-bundle_BASE_DIR}
+  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/fv3-jedi/Data/make_links.sh ${fv3-bundle_BASE_DIR}/../build
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/fv3-jedi/Data
 )
 execute_process(
-  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda//make_links.sh ${ioda-bundle_BASE_DIR}
+  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda//make_links.sh ${ioda-bundle_BASE_DIR}/../build
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda/
 )
 
