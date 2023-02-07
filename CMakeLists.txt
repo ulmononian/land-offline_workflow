@@ -48,7 +48,7 @@ execute_process(
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/fv3-jedi/Data
 )
 execute_process(
-  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda//make_links.sh ${ioda-bundle_BASE_DIR}/../build
+  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda/make_links.sh ${ioda-bundle_BASE_DIR}/../build
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/DA_update/jedi/ioda/
 )
 
