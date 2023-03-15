@@ -2,8 +2,6 @@ help([[
 loads Land DA prerequisites for Orion/Intel
 ]])
 
-setenv("EPICHOME", "/work/noaa/epic-ps/role-epic-ps")
-
 prepend_path("MODULEPATH", "/work/noaa/da/role-da/spack-stack/modulefiles")
 load("miniconda/3.9.7")
 
@@ -24,6 +22,6 @@ load("py-netcdf4")
 setenv("CC", "mpiicc")
 setenv("CXX", "mpiicpc")
 setenv("FC", "mpiifort")
-setenv("JEDI_INSTALL", pathJoin(os.getenv("EPICHOME"),"contrib"))
+setenv("JEDI_INSTALL", "/work2/noaa/epic-ps/cbook")
 
 whatis("Description: Land DA build environment")
