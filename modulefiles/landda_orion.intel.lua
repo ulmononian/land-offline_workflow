@@ -15,6 +15,7 @@ load("parallel-netcdf")
 load("cmake")
 load("ecbuild")
 load("stack-python")
+load("py-netcdf4")
 
 setenv("CC", "mpiicc")
 setenv("CXX", "mpiicpc")
