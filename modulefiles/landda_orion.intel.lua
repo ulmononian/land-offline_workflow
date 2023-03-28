@@ -5,7 +5,7 @@ loads Land DA prerequisites for Orion/Intel
 prepend_path("MODULEPATH", "/work/noaa/da/role-da/spack-stack/modulefiles")
 load("miniconda/3.9.7")
 
-prepend_path("MODULEPATH", "/work2/noaa/da/role-da/spack-stack-feature-r2d2-mysql/envs/unified-4.0.0-rc1/install/modulefiles/Core")
+prepend_path("MODULEPATH", "/work/noaa/epic-ps/role-epic-ps/spack-stack/spack-stack-1.3.0/envs/unified-env/install/modulefiles/Core")
 
 load("stack-intel")
 load("stack-intel-oneapi-mpi")
