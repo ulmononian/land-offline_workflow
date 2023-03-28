@@ -20,6 +20,6 @@ load("py-netcdf4")
 setenv("CC", "mpiicc")
 setenv("CXX", "mpiicpc")
 setenv("FC", "mpiifort")
-setenv("JEDI_INSTALL", "/work2/noaa/epic-ps/cbook")
+setenv("JEDI_INSTALL", "work/noaa/epic-ps/role-epic-ps/contrib/fv3-bundle-UE")
 
 whatis("Description: Land DA build environment")
