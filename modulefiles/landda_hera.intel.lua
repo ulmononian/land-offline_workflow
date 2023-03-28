@@ -5,7 +5,7 @@ loads Land DA prerequisites for Hera/Intel
 prepend_path("MODULEPATH", "/scratch1/NCEPDEV/global/spack-stack/modulefiles")
 load("miniconda/3.9.12")
 
-prepend_path("MODULEPATH", "/scratch1/NCEPDEV/stmp4/Cameron.Book/sw/spack-stack-1.2.0/envs/unified-env/install/modulefiles/Core")
+prepend_path("MODULEPATH", "/scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.3.0/envs/unified-dev/install/modulefiles/Core")
 
 load("stack-intel")
 load("stack-intel-oneapi-mpi")
