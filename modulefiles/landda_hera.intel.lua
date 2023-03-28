@@ -20,6 +20,6 @@ load("py-netcdf4")
 setenv("CC", "mpiicc")
 setenv("CXX", "mpiicpc")
 setenv("FC", "mpiifort")
-setenv("JEDI_INSTALL", "/scratch1/NCEPDEV/stmp4/Cameron.Book/landDA_work")
+setenv("JEDI_INSTALL", "/scratch1/NCEPDEV/nems/role.epic/contrib/fv3-bundle-UE")
 
 whatis("Description: Land DA build environment")
